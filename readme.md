@@ -7,11 +7,6 @@ Dans ce repo vous sont fournis les codes HTML et CSS, un dossier assets contenan
 INSTRUCTIONS
 Dans un 1er temps, vous allez créer un tableau d’objets, que vous appellerez movies, reprenant les données de ce tableau (on se rappelle de la syntaxe d’un tableau, d’un objet, puis d’un tableau d’objets)
 
-
-
-
-
-
 Ensuite, vous créerez une fonction displayMovies, qui prend un tableau en paramètre, et qui pour chacun des éléments du tableau créera :
 
 Une balise div, avec une classe movie-container, et qui sera rattachée à l’élément html dont l’id est movies-container,
@@ -23,6 +18,14 @@ Une balise img qui contiendra dans son attribut src la route vers l’affiche du
 Une balise ul qui sera rattachée à l’élément avec la classe movie-container et qui contiendra une li pour chaque acteur du film.
 
 Vous appellerez ensuite votre fonction avec le tableau movies en argument. A cette étape, vous devez voir s’afficher 10 films sur votre navigateur.
+
+
+
+
+
+
+
+
 
 Vous gérerez ensuite le formulaire de recherche :
 => Lorsque le formulaire est soumis, il faut :
