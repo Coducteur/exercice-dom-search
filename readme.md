@@ -1,5 +1,5 @@
-.[SNCF Lyon] Amina Chakir
-  11 h 28
+Amina C
+
 @ici Hey les Devs Gones :tête_de_lion: Les vacances se passent bien ?
 Pour éviter un retour difficile la semaine pro (eh oui, déjà :las:), je vous propose un exercice qui mêle syntaxe :js: (création d’un tableau d’objets, d’une fonction) et manipulation du dom). Il n’y a pas de piège, les consignes sont là pour vous guider tout au long du développement.
 L’idée va être de concevoir une page web qui, à l’aide d’un formulaire, affichera les films qui correspondent à la recherche de l’utilisateur :filmer:
@@ -18,14 +18,6 @@ Une balise img qui contiendra dans son attribut src la route vers l’affiche du
 Une balise ul qui sera rattachée à l’élément avec la classe movie-container et qui contiendra une li pour chaque acteur du film.
 
 Vous appellerez ensuite votre fonction avec le tableau movies en argument. A cette étape, vous devez voir s’afficher 10 films sur votre navigateur.
-
-
-
-
-
-
-
-
 
 Vous gérerez ensuite le formulaire de recherche :
 => Lorsque le formulaire est soumis, il faut :
