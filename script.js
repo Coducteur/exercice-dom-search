@@ -127,26 +127,26 @@ function displayMovies(moviesArray) {
 }
 
 //J'appelle la fonction
-displayMovies(movies)
-
+displayMovies(movies);
 
 
 // GESTION DU FORMULAIRE
 
 // Je crée l'écouteur d'évènement à la soumission du formulaire
-const btnSubmit = document.querySelector('input[type=submit]')
+const btnSubmit = document.querySelector('input[type=submit]');
 
 // Je réinitialise l'affichage en supprimant les films déjà affichés
 btnSubmit.addEventListener('click', (event) => {
   event.preventDefault();
   const movieContainer = document.querySelectorAll('.movie-container');
   for (let i = 0; i < movieContainer.length; i++) {
-    movieContainer[i].remove()
+    movieContainer[i].remove();
   }
-})
 
-//Je crée un tableau ne contenant que les films répondant au critère défini (titre)
-const search = document.querySelector('input[type=text].value')
-console.log()
+  //Je crée un tableau ne contenant que les films répondant au critère défini (titre)
+  const search = document.querySelector('#search-input').value;
+  const searchArray = movies.filter((item) => item.title.toLowerCase().includes(search));
+
   // J'appelle la fonction d'affichage
-
+  displayMovies(searchArray);
+});
